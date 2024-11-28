@@ -14,4 +14,5 @@ A real-time chat application built with **HTML**, **CSS**, **JavaScript**, and *
 3. Open the browser and start chatting!
 ### Or
 - Try my project http://soumyaonline.free.nf/
+- UserId: MrX | Password: admin
 
