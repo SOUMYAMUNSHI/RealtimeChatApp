@@ -15,4 +15,6 @@ A real-time chat application built with **HTML**, **CSS**, **JavaScript**, and *
 ### Or
 - Try my project http://soumyaonline.free.nf/
 - UserId: MrX | Password: admin
+---
+### Hay, I am not a pro yet there is some bug to fix :)
 
