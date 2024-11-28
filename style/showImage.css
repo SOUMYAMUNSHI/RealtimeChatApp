@@ -1,0 +1,37 @@
+/*copy these into showImage.css*/
+
+.show-profile_image {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile-image_container {
+  /* position: absolute; */
+  /* margin-left: calc(100% - 50%); */
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.show-profile_image > .profile-image_container > .user-image {
+  width: 500px;
+}
+
+.image-close_icon {
+  height: 30px;
+  position: absolute;
+  left: 95%;
+  top: 2%;
+}
+
+.image-close_icon > i {
+  font-size: 25px;
+  /* color: red; */
+  color: #f95959;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}

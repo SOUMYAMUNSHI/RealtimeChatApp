@@ -1,0 +1,41 @@
+.search-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-heading {
+  background-color: #e7eaf6;
+  padding: 15px;
+}
+
+.search {
+  padding: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  /* vertical-align: middle; */
+  align-items: start;
+  height: 50vh;
+}
+
+.users {
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.users > img {
+  width: 30px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.user-name {
+  display: inline-block;
+  font-size: 15px;
+}

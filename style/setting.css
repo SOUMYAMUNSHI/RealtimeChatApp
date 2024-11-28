@@ -1,0 +1,39 @@
+.display-settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-heading {
+  background-color: #e7eaf6;
+  padding: 15px;
+}
+
+.form {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.log-out {
+  padding: 10px;
+}
+.log-out__button {
+  /* margin-left: 10px; */
+  font-size: 15px;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+
+.log-out__button > i {
+  font-size: 25px;
+  color: #eb2632;
+}
+.logout {
+  display: inline;
+  margin-left: 5px;
+  color: #eb2632;
+}
+.log-out > .button {
+  border: none;
+  background: none;
+}

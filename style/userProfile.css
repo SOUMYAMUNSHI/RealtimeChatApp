@@ -1,0 +1,141 @@
+.load-user__profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-heading {
+  background-color: #e7eaf6;
+  padding: 15px;
+}
+
+.profile-picture {
+  /* background-color: black; */
+  /* height: 40%; */
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.profile-picture > .image {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.profile-picture > .image > img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.edit-icon {
+  color: #fcfefe;
+  background: rgba(34, 40, 50, 0.5);
+  /* backdrop-filter: blur(10px); */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.edit-picture {
+  margin-top: 65px;
+}
+/* .edit-icon > p {
+  width: 200px;
+  top: 50px;
+}
+.edit-icon > i {
+  font-size: 20px;
+} */
+
+.show-your__name {
+  background-color: #e7eaf6;
+}
+
+.name-paragraph {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #38598b;
+}
+
+.show-name {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: #132743;
+  font-size: 20px;
+}
+
+.show-user__name {
+  background-color: #e7eaf6;
+}
+
+.show-user__name {
+  border-bottom: 1px solid #ccc;
+}
+
+.log-out {
+  padding: 10px;
+  margin-top: 20px;
+}
+.log-out__button {
+  font-size: 20px;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+
+.log-out__button > i {
+  font-size: 30px;
+  color: #eb2632;
+}
+.logout {
+  display: inline;
+  margin-left: 5px;
+  color: #eb2632;
+}
+
+.popup {
+  background-color: #fcfefe;
+  /* height: 85px; */
+  height: auto;
+  width: 150px;
+  position: absolute;
+  top: 40%;
+  border-radius: 5px;
+}
+.view-image {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.update-image {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.close-button {
+  text-align: right;
+  height: 20px;
+}
+
+.close-button > i {
+  padding: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #a2a8d3;
+  /* font-size: 20px; */
+}
+
+/* .show-profile_image {
+  background-color: red;
+} */

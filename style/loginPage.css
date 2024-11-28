@@ -1,0 +1,11 @@
+.outer-form {
+  text-align: center;
+}
+.outer-form > h5 {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.outer-form > h5 > a {
+  text-decoration: none;
+}
