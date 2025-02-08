@@ -32,11 +32,19 @@ if (isset($_POST['submit'])) {
 
             header("Location:../../index.php");
         } else {
-            echo "error 2";
-            echo '<script>alert("Invalid Password")</script>';
+            ?>
+            <script>
+                alert("Invalid Password");
+                window.location.href = "http://localhost/chatApp3/php/login/loginPage.php";
+            </script>
+            <?php
         }
     } else {
-        echo "error";
-        echo '<script>alert("Invalid username")</script>';
+        ?>
+        <script>
+            alert("Invalid Username");
+            window.location.href = "http://localhost/chatApp3/php/login/loginPage.php";
+        </script>
+        <?php
     }
 }
