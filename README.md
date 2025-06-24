@@ -12,10 +12,6 @@ A real-time chat application built with **HTML**, **CSS**, **JavaScript**, and *
    --git clone https://github.com/SOUMYAMUNSHI/RealtimeChatApp.git
 2. Run it locally using XAMPP or any PHP server.
 3. Open the browser and start chatting!
-### Or
-- Try my project http://soumyaonline.free.nf/
-- UserId: MrX | Password: admin
-- Use it on Laptop or PC
----
+   
 ### Hay, I am not a pro yet there is some bug to fix :)
 
